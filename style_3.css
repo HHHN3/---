@@ -1,0 +1,45 @@
+﻿*{
+    margin:0;
+    padding:0;
+}
+
+div span {
+    font-weight: 900;
+}
+
+#fd {
+    margin: 1px;
+    padding-left: 20px;
+    height: 50px;
+    line-height: 50px;
+    background-color: dimgray;
+    color: white;
+}
+
+#a {
+    margin: 1px;
+    float: left;
+}
+
+.little_box {
+    height: 120px;
+    width:10000px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-color: whitesmoke;
+}
+
+.little_box h2{
+    height:120px;
+    width:120px;
+    background-color:darkgrey;
+    float:left;
+    line-height:120px;
+    text-align:center;
+}
+
+.little_box2 {
+    height:120px;
+    float:left;
+    margin-left:1px;
+}
