@@ -1,0 +1,20 @@
+﻿div{
+    height:500px;
+    width:auto;
+}
+
+#p1{
+    height:500px;
+    width:30%;
+    float:left;
+    box-sizing:border-box;
+    border:1px solid red;
+}
+
+#p2 {
+    height: 500px;
+    width: 70%;
+    
+    box-sizing: border-box;
+    border: 1px solid red;
+}

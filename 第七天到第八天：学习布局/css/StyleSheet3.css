@@ -1,0 +1,154 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    width: 100%;
+    height: 80px;
+    background-color: black;
+}
+
+.unified_box {
+    width: 960px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+#logo {
+    height: 100%;
+    width: 100px;
+    line-height: inherit;
+    color: white;
+    font-size: 50px;
+    float:left;
+}
+
+#right_nav {
+    width: 100px;
+    display: inline;
+    margin-left: 700px;
+}
+
+a:link{
+    color:white;
+}
+
+a:hover {
+    color: white;
+}
+
+a:active {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+#Banner {
+    height: 300px;
+    width: auto;
+    background-color: forestgreen;
+}
+
+#Banner_right{
+    height:30px;
+    width:120px;
+    /*Banner里面的height改动的时候此样式里面的margin-top也需要改动*/
+    /*Banner height-Banner_right=margin-top*/
+    margin-top:270px;
+    float:right;
+}
+
+.little_block {
+    height: 20px;
+    width: 20px;
+    margin: 5px;
+    font-size:10px;
+    background-color: lawngreen;
+    line-height: 20px;
+    text-align: center;
+    float: left;
+    -webkit-transition-duration:0.5s;
+}
+
+.little_block:hover {
+    transform: translateY(-10px);
+    height:30px;
+    background-color: white;
+}
+
+#main_nav{
+    height:60px;
+    width:auto;
+    border-bottom:1px solid grey;
+    margin-bottom:5px;
+}
+
+.little_nav {
+    height: 40px;
+    width: 80px;
+    border: 1px solid grey;
+    margin-top: 19px;
+    float: left;
+    background-color: gainsboro;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 15px 15px 0 0;
+    -webkit-transition-duration: 0.5s;
+}
+
+.little_nav:hover{
+    height:41px;
+    background-color:white;
+    border-bottom:0;
+}
+
+#content{
+    height:auto;
+    width:auto;
+    border-bottom:10px;
+}
+
+.little_content {
+    margin: 0px 5px 5px 0px;
+    height: 200px;
+    display:-webkit-box;
+}
+
+.little_content div{
+    border:1px solid black;
+    margin-right:10px;
+    text-align:center;
+    line-height:200px;
+}
+
+#row1_col1{
+    -webkit-box-flex:4.0;
+}
+
+#row1_col2 {
+    -webkit-box-flex: 4.0;
+}
+
+#row1_col3 {
+    -webkit-box-flex: 3.0;
+}
+
+.row2{
+    -webkit-box-flex:1.0;
+}
+
+.row3{
+    -webkit-box-flex:1.0;
+}
+
+#footer{
+    height:100px;
+    width:auto;
+    background-color:darkgrey;
+    line-height:100px;
+    text-align:center;
+    color:white;
+}
