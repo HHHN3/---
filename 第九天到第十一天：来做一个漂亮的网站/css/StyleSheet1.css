@@ -1,0 +1,460 @@
+﻿*{
+    margin:0;
+    padding:0
+}
+
+#account {
+    height: 600px;
+    background-image: url("../images/前端学院设计图_01.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.General{
+    height:inherit;
+    width:960px;
+    margin:0 auto;
+}
+
+#account_1 {
+    height: 50px;
+    font-size: 36px;
+    line-height: 36px;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    color: white;
+    opacity: 0.8;
+    font-weight: 100;
+}
+
+#account_2 {
+    height: 50px;
+    font-size: 16px;
+    color: ghostwhite;
+    text-align: center;
+    opacity: 0.5;
+}
+
+#account_3 {
+    border: 1px solid rgba(255,255,255,0.3);
+    height: 150px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+#account_4 {
+    height: 20px;
+    padding-top: 20px;
+    text-align: center;
+    line-height: 20px;
+    opacity: 0.8;
+    color: white;
+}
+
+#account_5 {
+    height: 10px;
+    padding-top: 10px;
+    text-align: center;
+    line-height: 10px;
+    opacity: 0.3;
+    color:white;
+    font-size:10px;
+}
+
+#account_6 {
+    height: 40px;
+    padding-top: 30px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.iput {
+    width: 200px;
+    height: 30px;
+    line-height: 30px;
+    background-color: rgba(0,0,0,0);
+    border: 1px solid rgba(255,255,255,0.3);
+    color:white;
+    margin-right:20px;
+    padding-left:15px;
+}
+
+#SIGN {
+    height: 30px;
+    width: 80px;
+    background-color: white;
+    text-align: center;
+    line-height: 30px;
+    border: 1px solid white;
+}
+
+#sections{
+    height:400px;
+    background-color:white;
+    text-align:center;
+}
+
+#sections_1 {
+    height: 10px;
+    padding-top: 40px;
+    line-height: 10px;
+    font-size: 8px;
+}
+
+#sections_2{
+    font-size:30px;
+    padding-top:20px;
+    font-weight:200;
+}
+
+#sections_3 {
+    padding-top: 40px;
+}
+
+.sections_4 {
+    width: 380px;
+    height: 50px;
+    float: left;
+    text-align: left;
+    margin-bottom: 80px;
+}
+
+.sections_4 h3{
+    margin-top:8px;
+    font-size:16px;
+    opacity:0.8;
+}
+
+.sections_4 p{
+    margin-top:5px;
+    font-size:13px;
+    color:rgba(128, 128, 128, 0.5);
+}
+
+.sections_picture{
+    height:50px;
+    width:50px;
+    float:left;
+}
+
+.sections4_left{
+    padding-left:150px;
+}
+
+.sections_4_right {
+    padding-right: 50px;
+}
+
+#car {
+    background-image: url("../images/前端学院设计图_02.png");
+    height: 550px;
+    margin-top: 50px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+#car_left{
+    padding-left:150px;
+    padding-top:80px;
+}
+
+#car_right {
+    position: absolute;
+    right: 0;
+    top: 50px;
+    width: 480px;
+    height: 450px;
+    border: 1px solid white;
+    border-right: 0px;
+    -webkit-border-top-left-radius: 30px;
+    -webkit-border-bottom-left-radius: 30px;
+}
+
+#car_right img{
+    height:410px;
+    width:440px;
+    float:right;
+    padding-top:20px;
+}
+
+#car_right div{
+    position:absolute;
+    height:10px;
+    width:10px;
+    border:1px solid white;
+    border-radius:10px;
+    left:15px;
+    top:220px;
+}
+
+#car_left h3{
+    font-size:40px;
+    color:white;
+    padding-bottom:30px;
+    opacity:0.9;
+    font-weight:200;
+}
+
+#car_left p{
+    color:white;
+    padding-bottom:30px;
+    opacity:0.4;
+}
+
+#car_left input{
+    font-size:11px;
+    width:180px;
+    height:50px;
+    color:white;
+    text-align:center;
+    line-height:50px;
+    border:1px solid rgba(255,255,255,0.5);
+    margin-right:30px;
+    background-color:rgba(255,255,255,0);
+}
+
+#car_left input:hover{
+    background-color:rgba(255,255,255,1);
+    color:black;
+}
+
+#products {
+    margin-top: 50px;
+    border-bottom: 1px solid rgba(128,128,128,0.2);
+    padding-bottom: 50px;
+}
+
+#products_1{
+    font-size:32px;
+    color:black;
+    text-align:center;
+    margin-bottom:50px;
+    font-weight:300;
+}
+
+#products_2{
+    display:-webkit-box;
+}
+
+.products_3{
+    -webkit-box-flex:1.0;
+    padding:15px;
+    text-align:center;
+}
+
+.products_3 h3{
+    padding-bottom:10px;
+    font-size:32px;
+    font-weight:600;
+}
+
+#picture {
+    padding: 100px 0 100px 0;
+    border-bottom: 1px solid rgba(128,128,128,0.2);
+}
+
+#picture_top {
+    margin-bottom: 80px;
+    height:310px;
+}
+
+#picture_top img{
+    width:500px;
+    height:310px;
+}
+
+#picture_top div{
+    padding-top:70px;
+    float:right;
+}
+
+#picture h3{
+    font-size:20px;
+    font-weight:600;
+    padding-bottom:20px;
+}
+
+#picture p{
+    opacity:0.5;
+}
+
+#picture_bottom {
+    height: 310px;
+}
+
+#picture_bottom img{
+    width:500px;
+    height:310px;
+    float:right;
+}
+
+#picture_bottom div{
+    padding-top:70px;
+    float:left;
+}
+
+#crew {
+    padding: 100px 0 80px 0;
+    border-bottom: 1px solid rgba(128,128,128,0.2);
+}
+
+#crew_top{
+    margin-bottom:50px;
+    text-align:center;
+}
+
+#crew_top h3{
+    font-weight:500;
+    font-size:26px;
+    padding-bottom:20px;
+}
+
+#crew_top p{
+    opacity:0.5;
+}
+
+#crew_bottom{
+    padding-top:50px;
+}
+
+#crew_bottom div{
+    display:-webkit-box;
+    padding-bottom:20px;
+}
+
+#crew_bottom img{
+    -webkit-box-flex:1.0;
+    height:350px;
+    width:465px;
+}
+
+#contacts {
+    padding: 100px 0 100px 0;
+    border-bottom: 1px solid rgba(128,128,128,0.2);
+}
+
+#contacts_1 {
+    height: 500px;
+}
+
+#contacts_left {
+    width:480px;
+    border: 1px solid rgba(0,0,0,0.2);
+    float:left;
+}
+
+#contacts_left h3{
+    margin-top: 30px;
+    text-align:center;
+    opacity:0.8;
+}
+
+.contacts_input {
+    margin: 30px auto;
+    border: 1px solid rgba(0,0,0,0.2);
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 10px;
+    width:250px;
+}
+
+#contacts_Message {
+    margin: 30px auto;
+    border: 1px solid rgba(0,0,0,0.2);
+    display: block;
+    height: 150px;
+    padding-left: 10px;
+    padding-top:10px;
+    width: 250px;
+    overflow:auto;
+}
+
+#contacts_SEND {
+    margin: 30px auto;
+    border: 1px solid rgba(0,0,0,0.2);
+    display: block;
+    height: 40px;
+    width: 260px;
+    color: rgba(255,255,255,0.8);
+    background-color: black;
+}
+
+#contacts_SEND:hover {
+    background-color: rgba(128,128,128,1);
+    color: black;
+}
+
+#contacts_right {
+    padding-top:80px;
+    float: right;
+}
+
+#contacts_right_top h3 {
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+#contacts_right_top p {
+    opacity: 0.5;
+}
+
+#contacts_right_bottom{
+    padding-top:50px;
+}
+
+.contacts_right_bottom_img {
+    margin-bottom: 30px;
+    display: -webkit-box;
+}
+
+.contacts_right_bottom_img img{
+    height:25px;
+    width:25px;
+}
+
+.contacts_right_bottom_img p{
+     padding-left:15px;
+     line-height:1.5em;
+     font-weight:600;
+     opacity:0.7;
+}
+
+#footer{
+    height:400px;
+    background-color:black;
+    color:white;
+}
+
+#footer_1{
+    display:-webkit-box;
+}
+
+.footer_box{
+    padding-right:100px;
+}
+
+.footer_box p{
+    padding-top:100px;
+    opacity:0.9;
+}
+
+.footer_box a{
+    opacity:0.6;
+    font-size:14px;
+    color:white;
+    display:block;
+    padding-top:30px;
+    padding-left:2px;
+    text-decoration:none;
+}
+
+.footer_box_special_a {
+    height:35px;
+    width:35px;
+    padding-right:20px;
+    float:left;
+}
